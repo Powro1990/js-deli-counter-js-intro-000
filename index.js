@@ -16,9 +16,8 @@ function currentLine(line){
   if(line.length === 0){
     return "The line is currently empty.";
   }else{
-    var lineLength = line.length;
     var anwser = "The line is currently:"; 
-    for(var i=0; i < lineLength; i++){
+    for(var i=0; i < line.length; i++){
       var nextPeson = line[i];
       anwser += nextPeson;
     } return anwser;
