@@ -21,7 +21,7 @@ function currentLine(line){
       var j = 1;
       var nextPeson = ` ${j}. ${line.shift()},`;
       anwser += nextPeson;
-      j++
-    } return anwser
+      j +=1
+    } return anwser;
   }
 }
