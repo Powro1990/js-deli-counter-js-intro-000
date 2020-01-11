@@ -17,7 +17,7 @@ function currentLine(line){
     return "The line is currently empty.";
   }else{
     var anwser = "The line is currently:"; 
-    for(var i=0; i < line.length; i++){
+    for(var i=0; i < 3; i++){
       var j = 1;
       var nextPeson = ` ${j}. ${line.shift()},`;
       anwser += nextPeson;
