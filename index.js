@@ -18,7 +18,7 @@ function currentLine(line){
   }else{
     var anwser = "The line is currently:"; 
     for(var i=0; i < line.length; i++){
-      j = 1;
+      var j = 1;
       var nextPeson = ` ${j}. ${line.shift()},`;
       anwser += nextPeson;
       j++
