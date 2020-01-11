@@ -18,8 +18,8 @@ function currentLine(line){
   }else{
     var anwser = "The line is currently:"; 
     for(i=0; i <line.length; i++){
-      var nextPeson =
-      
-    } return 
+      var nextPeson = `${line.shift()}`;
+      anwser += nextPeson;
+    } return anwser
   }
 }
