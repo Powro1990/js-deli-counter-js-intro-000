@@ -19,7 +19,7 @@ function currentLine(line){
     var lineLength = line.length;
     var anwser = "The line is currently:"; 
     for(var i=0; i < lineLength; i++){
-      var nextPeson = ` ${i+1}. ${line.shift()},`;
+      var nextPeson = line;
       anwser += nextPeson;
     } return anwser;
   }
